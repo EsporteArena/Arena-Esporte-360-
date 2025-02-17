@@ -1,95 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arena Esportes 360</title>
-    <meta name="description" content="As últimas notícias e atualizações sobre Futebol, Basquete, Games, Futebol Americano, Golfe e Tênis.">
-    <meta name="keywords" content="Esportes, Futebol, Basquete, Games, Futebol Americano, Golfe, Tênis, Notícias Esportivas, Palpites de Jogos">
+    <meta name="description" content="Notícias atualizadas sobre esportes. Fique por dentro de Futebol, Basquete, Futebol Americano, Golfe, Tênis e mais!">
+    <meta name="keywords" content="esportes, futebol, basquete, golfe, tênis, futebol americano, palpites de jogos, notícias de esportes, Arena Esportes 360">
+    <meta name="author" content="Arena Esportes 360">
+    <title>Arena Esportes 360 - Notícias e Atualizações sobre Esportes</title>
+
+    <!-- Link para o estilo CSS -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- SEO e redes sociais -->
+    <meta property="og:title" content="Arena Esportes 360 - Notícias e Atualizações sobre Esportes">
+    <meta property="og:image" content="link-para-imagem-do-site">
+    <meta property="og:description" content="Acompanhe as últimas notícias e novidades sobre esportes no Arena Esportes 360. Futebol, basquete, golfe, tênis e mais!">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>Arena Esportes 360</h1>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#futebol">Futebol</a></li>
+            <li><a href="#basquete">Basquete</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#futebol-americano">Futebol Americano</a></li>
+            <li><a href="#golfe">Golfe</a></li>
+            <li><a href="#tenis">Tênis</a></li>
+            <li><a href="#palpites">Palpites de Jogos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="noticias">
+        <h1>Notícias Recentes</h1>
+        <div id="conteudo-noticias">
+            <!-- As notícias serão carregadas automaticamente aqui -->
         </div>
-        <nav>
-            <ul>
-                <li><a href="#futebol">Futebol</a></li>
-                <li><a href="#basquete">Basquete</a></li>
-                <li><a href="#games">Games</a></li>
-                <li><a href="#futebol-americano">Futebol Americano</a></li>
-                <li><a href="#golfe">Golfe</a></li>
-                <li><a href="#tenis">Tênis</a></li>
-                <li><a href="#palpites">Palpites de Jogos</a></li>
-            </ul>
-        </nav>
-    </header>
+    </section>
 
-    <main>
-        <section id="destaques">
-            <h2>Destaques</h2>
-            <!-- Área para notícias em destaque -->
-            <div class="noticia">
-                <img src="imagem1.jpg" alt="Imagem da notícia 1">
-                <h3>Título da Notícia 1</h3>
-                <p>Subtítulo ou resumo da notícia 1...</p>
-            </div>
-            <!-- Mais notícias -->
-        </section>
-
-        <section id="futebol">
-            <h2>Futebol</h2>
-            <!-- Notícias de Futebol -->
-        </section>
-
-        <section id="basquete">
-            <h2>Basquete</h2>
-            <!-- Notícias de Basquete -->
-        </section>
-
-        <section id="games">
-            <h2>Games</h2>
-            <!-- Notícias de Games -->
-        </section>
-
-        <section id="futebol-americano">
-            <h2>Futebol Americano</h2>
-            <!-- Notícias de Futebol Americano -->
-        </section>
-
-        <section id="golfe">
-            <h2>Golfe</h2>
-            <!-- Notícias de Golfe -->
-        </section>
-
-        <section id="tenis">
-            <h2>Tênis</h2>
-            <!-- Notícias de Tênis -->
-        </section>
-
-        <section id="palpites">
-            <h2>Palpites de Jogos</h2>
-            <!-- Área para palpites de jogos -->
-        </section>
-    </main>
-
-    <aside>
-        <div class="patrocinadores">
-            <h2>Patrocinadores</h2>
-            <!-- Espaço para banners de patrocinadores -->
+    <section id="palpites">
+        <h2>Palpites de Jogos</h2>
+        <div id="palpites-dia">
+            <!-- Palpites serão carregados aqui -->
         </div>
-        <div class="redes-sociais">
-            <h2>Siga-nos</h2>
-            <!-- Ícones de redes sociais -->
-            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-        </div>
-    </aside>
+    </section>
+</main>
 
-    <footer>
-        <p>&copy; 2025 Arena Esportes 360. Todos os direitos reservados.</p>
-    </footer>
+<footer>
+    <div class="social-media">
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://twitter.com">Twitter</a>
+        <a href="https://instagram.com">Instagram</a>
+    </div>
+    <p>&copy; 2025 Arena Esportes 360 - Todos os direitos reservados.</p>
+</footer>
+
+<!-- Link para o script JavaScript -->
+<script src="script.js"></script>
 </body>
 </html>
